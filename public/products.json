@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Victoria Secret Perfume",
+        "img": "https://buyperfumeinbangladesh.com/wp-content/uploads/2019/12/victorias-secret-bombshell-edp-for-women-100ml-1.jpg",
+        "price": 49,
+        "description": "The best seller amongst Victoria's Secret line of perfumes, Bombshell is a fruity floral scent also known as the 'LBD of Fragrance'."
+    },
+    {
+        "id": 2,
+        "name": "Foam Cleanser",
+        "img": "https://www.kmarket.com.bd/wp-content/uploads/2021/08/dp30.jpg",
+        "price": 14,
+        "description": "As the name suggests, a foaming cleanser is basically a skin cleanser that foams up. To ensure the best lather, use lots of water. It works by removing the excess and unnecessary oil from the skin's surface, preventing the formation of acne in the process."
+    },
+    {
+        "id": 3,
+        "name": "Lip Sleeping Mask",
+        "img": "https://skincarebd.com/wp-content/uploads/2019/09/laneige-lip-sleeping-mask.jpg",
+        "price": 16,
+        "description": "As its name implies, the Laneige Lip Sleeping Mask is a leave-on mask that soothes and moisturizes lips overnight.  It's got all the good things you want in a balm: hydrating hyaluronic acid, brightening vitamin C, and antioxidants that work together to form a barrier over your lips to lock in moisture."
+    },
+    {
+        "id": 4,
+        "name": "Gold Whitening Essence",
+        "img": "https://skin-careclub.com/215-home_default/24k-gold-whitening-essence-30ml.jpg",
+        "price": 10,
+        "description": "Promotes skin renewal by moisturizing and firming. 24K infused whitening essence drastically shows results after several usage. It is benificial for your skin. Use it timely, regularly. Make your skin smoother."
+    },
+    {
+        "id": 5,
+        "name": "LAFZ Matte Lipstick",
+        "img": "https://www.lafz.com/media/catalog/product/cache/f2258dba77244d91feb87ad3a8f01e9e/2/2/226.jpg",
+        "price": 8,
+        "description": "Indulge your lips every day with a premium, matte finish lipstick that lasts up to 8 hours. Made in Italy, this range of Lafz Lipsticks comes in 11 universal colours that suit every skin tone. Enriched with Shea Butter and Vitamin E, it moisturizes your lipswhile giving a beautiful matte finish and intense colour that lasts all day!"
+    },
+    {
+        "id": 6,
+        "name": "Nivea Soap Cream",
+        "img": "https://www.banglashoppers.com/media/catalog/product/cache/a54faa854ade9421b00af3a908778e30/1/_/1.2_53.jpg",
+        "price": 9,
+        "description": "Nivea soaps provide effective cleansing of hands and body without losing skin's natural moisture. ... This makes Nivea soaps a better cleansing and moisturising soap than a normal bathing bar. Nivea soaps are gentle on the skin. They are better products for people who are prone to allergic reactions and breakouts."
+    },
+    {
+        "id": 7,
+        "name": "Mascara",
+        "img": "https://i5.walmartimages.com/asr/a70a27ff-9122-4524-8cf2-1fe3cd165fb0.e6c7a59eed97cdedd431e731b30300fa.jpeg",
+        "price": 6,
+        "description": "Mascara is a cosmetic commonly used to enhance the eyelashes. It may darken, thicken, lengthen, and/or define the eyelashes. Just coat your lashes with the jelly and remove it with a cotton ball or pad gentle soaked in warm water. Baby oil, olive oil, grape seed oil and coconut oil also prove handy in removing waterproof mascara and other eye makeup."
+    },
+    {
+        "id": 8,
+        "name": "Enchanteur Body Spray",
+        "img": "https://www.myshop.lk/wp-content/uploads/2019/03/Enchanteur-Gorgeous-Body-Mist-75ml-1.jpg",
+        "price": 7,
+        "description": "Enchanteur Romantic Perfumed Deo Spray is designed to give you floral freshness and odour-protection. To use it, shake the bottle, hold it a few inches away from your skin and spray it directly on the skin. Allow your skin to dry completely before wearing clothes. For best results, use it immediately after your shower."
+    },
+    {
+        "id": 9,
+        "name": "Hair Care Oil",
+        "img": "https://amarbazar.org/wp-content/uploads/2020/08/B.Tech-Expert-Hair-Care-Oil-200-ml.jpg",
+        "price": 11,
+        "description": "Hair oiling is the practice of pouring oil onto hair and massaging it into the scalp to increase moisture, luster, and shine. ... Hair oiling has spread beyond Ayurvedic practices, and many use it to maintain the health and vibrancy of their hair. It may even reduce hair loss, according to some experts."
+    },
+    {
+        "id": 10,
+        "name": "Hair Serum",
+        "img": "https://m.media-amazon.com/images/I/619yQyFhLcL._SL1500_.jpg",
+        "price": 8,
+        "description": "It is a concentrate of active ingredients, which targets specific skincare concerns, and the ingredients are powerful, and made up of smaller molecules. The level of active ingredients is higher than in a usual face cream, since the heavier oils and ingredients have been done away with."
+    }
+]

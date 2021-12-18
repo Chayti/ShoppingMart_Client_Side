@@ -1,0 +1,27 @@
+.product-detail img{
+  width: 50%;
+}
+.product-detail h1{
+  color: rgba(118, 189, 11);;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow:  0px 0px 5px #000;
+  word-wrap: break-word;
+}
+.product-detail h4{
+  text-align: justify;
+}
+
+.shipping-form-bg{
+  background-color: pink;
+}
+.shipping-form input {
+  display: block;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+}
+.error{
+  color: red;
+}
