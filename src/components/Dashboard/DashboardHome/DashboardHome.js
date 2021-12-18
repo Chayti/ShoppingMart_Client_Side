@@ -1,6 +1,6 @@
 import * as React from 'react';
-
 const DashboardHome = () => {
+
     return (
         <>
             <h1>Welcome to your Dashboard</h1>

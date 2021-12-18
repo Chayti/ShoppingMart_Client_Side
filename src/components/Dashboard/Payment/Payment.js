@@ -3,6 +3,8 @@ import CheckoutForm from './CheckoutForm';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import useAuth from '../../../hooks/useAuth';
+import { useSelector, useDispatch } from 'react-redux'
+import { decrement, increment } from '../../../redux/slices/counterSlice'
 
 const stripePromise = loadStripe('pk_test_51JwNMjCkzxdRkj23qr3OLpL8mH2txMbFejo5CovtCsILegRoibRsju0jBMwJSba59j9Tbr6stT94lexolj6ibVmB00lRH7Vr2e')
 
@@ -10,6 +12,8 @@ const Payment = () => {
     const { user } = useAuth();
     const [products, setProducts] = useState([])
     const [click, setClick] = useState(false)
+    const count = useSelector((state) => state.counter.value)
+    const dispatch = useDispatch()
     useEffect(() => {
         fetch(`https://still-gorge-06383.herokuapp.com/myOrders/${user?.email}`)
             .then((res) => res.json())
@@ -43,7 +47,30 @@ const Payment = () => {
                 />
             </Elements>} */}
             {click && price_array.reduce(reducer) > 0 &&
-                <h4>This facility is coming soon...</h4>
+                <div>
+                    <h4>This facility is coming soon...</h4>
+                    <h4 className="mt-5">Let's have some fun until ↓</h4>
+                    <div className="mt-3">
+                        <div>
+                            <button
+                                className="bg-info mx-3 px-3 py-2"
+                                aria-label="Increment value"
+                                onClick={() => dispatch(increment())}
+                            >
+                                Increment
+                            </button>
+                            <span>{count}</span>
+                            <button
+                                className="bg-secondary mx-3 px-3 py-2 text-light"
+                                aria-label="Decrement value"
+                                onClick={() => dispatch(decrement())}
+                            >
+                                Decrement
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
             }
             {!click && price_array.reduce(reducer) > 0 &&
                 <h4>Thanks! Our delivery man will contact you in time.</h4>
