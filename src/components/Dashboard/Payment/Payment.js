@@ -11,7 +11,7 @@ const Payment = () => {
     const [products, setProducts] = useState([])
     const [click, setClick] = useState(false)
     useEffect(() => {
-        fetch(`http://localhost:5000/myOrders/${user?.email}`)
+        fetch(`https://still-gorge-06383.herokuapp.com/myOrders/${user?.email}`)
             .then((res) => res.json())
             .then((data) => setProducts(data));
     }, [user.email, products]);

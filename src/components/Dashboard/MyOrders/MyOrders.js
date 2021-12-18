@@ -9,13 +9,13 @@ const MyOrders = () => {
     const { user } = useAuth();
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/myOrders/${user?.email}`)
+        fetch(`https://still-gorge-06383.herokuapp.com/myOrders/${user?.email}`)
             .then((res) => res.json())
             .then((data) => setProducts(data));
     }, [user.email, products]);
 
     const handleDelete = (id) => {
-        const url = `http://localhost:5000/orders/${id}`
+        const url = `https://still-gorge-06383.herokuapp.com/orders/${id}`
         const ans = window.confirm('Do you want to delete it?')
         if (ans) {
             axios

@@ -11,7 +11,7 @@ const AddReview = () => {
     const onSubmit = (data) => {
         data.email = user?.email;
         console.log(data);
-        axios.post('http://localhost:5000/addReview', data)
+        axios.post('https://still-gorge-06383.herokuapp.com/addReview', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Thanks for your review!')

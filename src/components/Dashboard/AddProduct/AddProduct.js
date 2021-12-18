@@ -11,7 +11,7 @@ const AddProduct = () => {
     const onSubmit = (data) => {
         data.email = user?.email;
         console.log(data);
-        axios.post('http://localhost:5000/addProduct', data)
+        axios.post('https://still-gorge-06383.herokuapp.com/addProduct', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully')
